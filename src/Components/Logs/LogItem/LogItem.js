@@ -5,11 +5,11 @@ import "./LogItem.css";
 const LogItem = (props) => {
   return (
     <div className="item">
-     <Calender/>
+     <Calender date={props.date}/>
 
       <div className="content">
         <h2 className="desc">{props.desc}</h2>
-        <dev className="time">{props.time}</dev>
+        <div className="time">{props.time}</div>
       </div>
     </div>
   );
