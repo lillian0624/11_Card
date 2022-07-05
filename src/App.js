@@ -5,7 +5,7 @@ import Card from './Components/UI/Card/Card';
 const App = () => {
   return (
     <div>
-      {/* <Card/> */}
+    <Card>sssss</Card>
       <Logs />
     </div>
   );
