@@ -1,14 +1,15 @@
 
 import Logs from "./Components/Logs/Logs";
 import Card from './Components/UI/Card/Card';
+import LogsForm from "./Components/LogsForm/LogsForm";
+import './App.css';
 
 const App = () => {
-  return (
-    <div>
-    <Card>sssss</Card>
+  return <div className="app">
+       <LogsForm/>
+    <Card/>
       <Logs />
-    </div>
-  );
+    </div>;
 };
 
 
