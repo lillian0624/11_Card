@@ -6,8 +6,8 @@ import "./Logs.css";
 const Logs = () => {
   return (
     <div className="logs">
-      <LogItem />
-      <LogItem />
+      <LogItem date = {new Date()} desc={"learning"} time={"1h"}/>
+      <LogItem date = {new Date()} desc={"working"} time={"3h"}/>
       <LogItem />
     </div>
   );
