@@ -3,6 +3,7 @@ import Calender from "./Calender/Calender";
 import "./LogItem.css";
 
 const LogItem = (props) => {
+  console.log(props.date,'123')
   return (
     <div className="item">
      <Calender date={props.date}/>
